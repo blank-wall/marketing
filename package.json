@@ -1,0 +1,31 @@
+{
+  "name": "marketing",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:development": "vite --mode development",
+    "dev:production": "vite --mode production",
+    "test": "vite --mode test",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.182",
+    "axios": "^0.27.2",
+    "loadsh": "^0.0.4",
+    "pinia": "^2.0.16",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.6",
+    "@vitejs/plugin-vue": "^3.0.0",
+    "sass": "^1.54.0",
+    "sass-loader": "^13.0.2",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0",
+    "vue-tsc": "^0.38.4"
+  }
+}
